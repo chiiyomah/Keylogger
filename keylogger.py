@@ -34,3 +34,5 @@ def on_release(key):
 
 with Listener(on_press=on_press, on_release=on_release) as listener:
     listener.join()
+    
+#For more information, check https://www.youtube.com/watch?v=TbMKwl11itQ&t=31s
